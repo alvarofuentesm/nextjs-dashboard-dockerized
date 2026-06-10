@@ -1,0 +1,10 @@
+packages:
+  - "."
+
+allowBuilds:
+  sharp: true
+
+overrides:
+  baseline-browser-mapping: "2.10.33"
+  electron-to-chromium: "1.5.368"
+  semver: "7.8.0"

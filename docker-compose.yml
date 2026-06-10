@@ -24,7 +24,7 @@ services:
       POSTGRES_HOST_AUTH_METHOD: "trust"
       PGDATA: /var/lib/postgresql/18/docker
     ports:
-      - "5433:5432"
+      - "5435:5432"
     volumes:
       - ./data/nextdb/postgres/:/var/lib/postgresql
     user: 1000:1000
